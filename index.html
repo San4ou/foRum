@@ -6,29 +6,32 @@
     <title>Document</title>
     <link href="public/output.css" rel="stylesheet">
 </head>
-<body class="  h-[100%] w-[100%]">
-    <div class=" flex justify-center  ">
-        <div id="reg" class=" flex flex-col items-center ">
-            <h1>Регистрация</h1>
-            <input id="" type="text" class="mt-[10px] placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-7 pr-1 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Введите имя">
-            <input id="" type="email" class=" mt-[10px] placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-7 pr-1 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Введите email">
-            <input id="" type="password" class=" mt-[10px] placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-7 pr-1 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Введите пароль">
-            <button id="" class="mt-[10px] py-[5px] px-[100px] bg-orange-500 text-white rounded-[25px]">зарегистрироваться</button>
-            <div class="flex ">
+<body>
+    <div class="flex justify-center items-center h-[100vh]">
+        <div id="reg" class="">
+            <h1>Регистрация</h1> 
+            <input id="reg_name" type="text" class="mt-[10px] placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-7 pr-1 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Введите имя">
+            <input id="reg_email" type="email" class=" mt-[10px] placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-7 pr-1 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Введите email">
+            <input id="reg_pass" type="password" class=" mt-[10px] placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-7 pr-1 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Введите пароль">
+            <button id="reg_but" class="mt-[10px] py-[5px] px-[100px] bg-orange-500 text-white rounded-[25px]">зарегистрироваться</button>
+            <div class="flex">
                 <p>Уже есть аккаунт? Вы можете </p>&nbsp
                 <button id="aut_show" class=" text-black rounded-[25px] italic">Войти</button>
-            </div>
+            </div> 
+            <div id="wasd" class="text-red-500"></div>
         </div>
-        <div id="aut" class="hidden  ">
-           
+        <div id="aut" class="hidden">
+            <div class=" flex flex-col">  
                 <h1>Авторизация</h1>
                 <input id="" type="email" class="mt-[10px] placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-7 pr-1 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Введите email">
                 <input id="" type="password" class=" mt-[10px] placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-7 pr-1 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Введите пароль">
-                <button id="" class="mt-[10px] py-[5px] px-[100px] bg-orange-500 text-white rounded-[25px]">войти</button>
-                <p>Нет аккаунта? Вы можете </p>&nbsp
-                <button id="reg_show" class=" text-black rounded-[25px] italic">Зарегистрироваться</button>
+                <button id="" class="mt-[10px] py-[5px] px-[100px] bg-orange-500 text-white rounded-[25px]">зарегистрироваться</button>
+                <div class="flex">
+                    <p>Нет аккаунта? Вы можете </p>&nbsp
+                    <button id="reg_show" class=" text-black rounded-[25px] italic">Зарегистрироваться</button>
+                </div>
             </div>
-        
+        </div>
     </div>
 <script src="/js/main.js"></script>
 </body>

@@ -570,12 +570,12 @@ video {
   display: none;
 }
 
-.h-\[100\%\] {
-  height: 100%;
+.h-\[100vh\] {
+  height: 100vh;
 }
 
-.w-\[100\%\] {
-  width: 100%;
+.w-\[500px\] {
+  width: 500px;
 }
 
 .w-full {
@@ -656,6 +656,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
 .shadow-sm {
